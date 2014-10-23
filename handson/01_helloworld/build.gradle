@@ -1,0 +1,10 @@
+apply plugin: HelloWorld
+
+
+class HelloWorld implements Plugin<Project> {
+
+    @Override
+    void apply(Project project) {
+    }
+
+}
