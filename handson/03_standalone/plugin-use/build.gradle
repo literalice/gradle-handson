@@ -1,0 +1,11 @@
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+    dependencies {
+        classpath "com.example.gradle-plugins-20141024:helloworld:0.1"
+    }
+}
+
+apply plugin: com.example.HelloWorldPlugin
+
