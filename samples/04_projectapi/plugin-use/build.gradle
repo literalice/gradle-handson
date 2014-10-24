@@ -1,0 +1,11 @@
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+    dependencies {
+        classpath "com.example.gradle-plugins-20141024:jggugdump:0.1"
+    }
+}
+
+apply plugin: com.example.JggugDumpPlugin
+

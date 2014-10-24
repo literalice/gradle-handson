@@ -1,0 +1,20 @@
+plugins {
+    id "groovy"
+    id "maven-publish"
+}
+
+dependencies {
+    compile gradleApi()
+}
+
+group = "com.example.gradle-plugins-20141024"
+version = "0.1"
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}
+
